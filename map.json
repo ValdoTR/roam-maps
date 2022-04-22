@@ -2361,7 +2361,7 @@
                 {
                  "name":"tag",
                  "type":"string",
-                 "value":"admin"
+                 "value":"editor"
                 }],
          "type":"group",
          "visible":true,
