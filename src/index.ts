@@ -300,6 +300,56 @@ WA.onInit().then(() => {
     })
     WA.room.onLeaveLayer('zones/discord').subscribe(closePopup)
 
+     // =================== GT: marketing ===================
+
+     WA.room.onEnterLayer('zones/marketing/video').subscribe(() => {
+        const id = "Video"
+        const description = WA.state["marketing"+id+"Description"] as string;
+        const url = WA.state["marketing"+id+"URL"] as string;
+
+        let cta = [{label: 'Fermer', className: 'normal', callback: () => closePopup()}]
+
+        if (url) {
+            cta.push({label: 'Ouvrir', className: 'primary', callback: () => openWebsite(url, true)})
+        }
+
+        //@ts-ignore
+        currentPopup = WA.ui.openPopup("marketingPopup", description, cta);
+    })
+    WA.room.onLeaveLayer('zones/marketing/video').subscribe(closePopup)
+
+    WA.room.onEnterLayer('zones/marketing/doc1').subscribe(() => {
+        const id = "Doc1"
+        const description = WA.state["marketing"+id+"Description"] as string;
+        const url = WA.state["marketing"+id+"URL"] as string;
+
+        let cta = [{label: 'Fermer', className: 'normal', callback: () => closePopup()}]
+
+        if (url) {
+            cta.push({label: 'Ouvrir', className: 'primary', callback: () => openWebsite(url, true)})
+        }
+
+        //@ts-ignore
+        currentPopup = WA.ui.openPopup("marketingPopup", description, cta);
+    })
+    WA.room.onLeaveLayer('zones/marketing/doc1').subscribe(closePopup)
+
+    WA.room.onEnterLayer('zones/marketing/doc2').subscribe(() => {
+        const id = "Doc2"
+        const description = WA.state["marketing"+id+"Description"] as string;
+        const url = WA.state["marketing"+id+"URL"] as string;
+
+        let cta = [{label: 'Fermer', className: 'normal', callback: () => closePopup()}]
+
+        if (url) {
+            cta.push({label: 'Ouvrir', className: 'primary', callback: () => openWebsite(url, true)})
+        }
+
+        //@ts-ignore
+        currentPopup = WA.ui.openPopup("marketingPopup", description, cta);
+    })
+    WA.room.onLeaveLayer('zones/marketing/doc2').subscribe(closePopup)
+
     // The line below bootstraps the Scripting API Extra library that adds a number of advanced properties/features to WorkAdventure
     bootstrapExtra().then(() => {
         console.log('Scripting API Extra ready');
