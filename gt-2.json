@@ -265,72 +265,6 @@
          "objects":[
                 {
                  "height":0,
-                 "id":274,
-                 "name":"comexVideoDescription",
-                 "point":true,
-                 "properties":[
-                        {
-                         "name":"default",
-                         "type":"string",
-                         "value":"..."
-                        }, 
-                        {
-                         "name":"description",
-                         "type":"string",
-                         "value":"Configurer la description de la popup de la vid\u00e9o."
-                        }, 
-                        {
-                         "name":"label",
-                         "type":"string",
-                         "value":"Description vid\u00e9o"
-                        }, 
-                        {
-                         "name":"persist",
-                         "type":"bool",
-                         "value":true
-                        }],
-                 "rotation":0,
-                 "type":"variable",
-                 "visible":true,
-                 "width":0,
-                 "x":480,
-                 "y":320
-                }, 
-                {
-                 "height":0,
-                 "id":275,
-                 "name":"comexVideoURL",
-                 "point":true,
-                 "properties":[
-                        {
-                         "name":"default",
-                         "type":"string",
-                         "value":""
-                        }, 
-                        {
-                         "name":"description",
-                         "type":"string",
-                         "value":"Apr\u00e8s avoir configur\u00e9 une URL, un bouton bleu s'ajoutera \u00e0 la popup avec le lien saisie."
-                        }, 
-                        {
-                         "name":"label",
-                         "type":"string",
-                         "value":"URL vid\u00e9o"
-                        }, 
-                        {
-                         "name":"persist",
-                         "type":"bool",
-                         "value":true
-                        }],
-                 "rotation":0,
-                 "type":"variable",
-                 "visible":true,
-                 "width":0,
-                 "x":480,
-                 "y":384
-                }, 
-                {
-                 "height":0,
                  "id":276,
                  "name":"comexDocDescription",
                  "point":true,
@@ -393,6 +327,72 @@
                  "visible":true,
                  "width":0,
                  "x":416,
+                 "y":384
+                }, 
+                {
+                 "height":0,
+                 "id":274,
+                 "name":"comexVideoDescription",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"default",
+                         "type":"string",
+                         "value":"..."
+                        }, 
+                        {
+                         "name":"description",
+                         "type":"string",
+                         "value":"Configurer la description de la popup de la vid\u00e9o."
+                        }, 
+                        {
+                         "name":"label",
+                         "type":"string",
+                         "value":"Description vid\u00e9o"
+                        }, 
+                        {
+                         "name":"persist",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":0,
+                 "type":"variable",
+                 "visible":true,
+                 "width":0,
+                 "x":480,
+                 "y":320
+                }, 
+                {
+                 "height":0,
+                 "id":275,
+                 "name":"comexVideoURL",
+                 "point":true,
+                 "properties":[
+                        {
+                         "name":"default",
+                         "type":"string",
+                         "value":""
+                        }, 
+                        {
+                         "name":"description",
+                         "type":"string",
+                         "value":"Apr\u00e8s avoir configur\u00e9 une URL, un bouton bleu s'ajoutera \u00e0 la popup avec le lien saisie."
+                        }, 
+                        {
+                         "name":"label",
+                         "type":"string",
+                         "value":"URL vid\u00e9o"
+                        }, 
+                        {
+                         "name":"persist",
+                         "type":"bool",
+                         "value":true
+                        }],
+                 "rotation":0,
+                 "type":"variable",
+                 "visible":true,
+                 "width":0,
+                 "x":480,
                  "y":384
                 }, 
                 {
