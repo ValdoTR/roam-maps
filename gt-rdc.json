@@ -1321,7 +1321,7 @@
                         {
                          "name":"label",
                          "type":"string",
-                         "value":"Com & marketing"
+                         "value":"Informatique"
                         }],
                  "type":"objectgroup",
                  "visible":true,
@@ -1536,7 +1536,7 @@
                         {
                          "name":"label",
                          "type":"string",
-                         "value":"Com & marketing"
+                         "value":"RH"
                         }],
                  "type":"objectgroup",
                  "visible":true,
@@ -1751,7 +1751,7 @@
                         {
                          "name":"label",
                          "type":"string",
-                         "value":"Com & marketing"
+                         "value":"Finance"
                         }],
                  "type":"objectgroup",
                  "visible":true,

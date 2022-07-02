@@ -619,46 +619,13 @@
                 }, 
                 {
                  "height":160,
-                 "id":228,
-                 "name":"bibliotheque6Popup",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":256,
-                 "x":416,
-                 "y":1120
-                }, 
-                {
-                 "height":160,
-                 "id":229,
-                 "name":"bibliotheque5Popup",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":256,
-                 "x":352,
-                 "y":1120
-                }, 
-                {
-                 "height":160,
-                 "id":230,
-                 "name":"bibliotheque4Popup",
+                 "id":233,
+                 "name":"bibliotheque1Popup",
                  "rotation":0,
                  "type":"",
                  "visible":true,
                  "width":256,
                  "x":288,
-                 "y":1120
-                }, 
-                {
-                 "height":160,
-                 "id":231,
-                 "name":"bibliotheque3Popup",
-                 "rotation":0,
-                 "type":"",
-                 "visible":true,
-                 "width":256,
-                 "x":416,
                  "y":1056
                 }, 
                 {
@@ -674,14 +641,47 @@
                 }, 
                 {
                  "height":160,
-                 "id":233,
-                 "name":"bibliotheque1Popup",
+                 "id":231,
+                 "name":"bibliotheque3Popup",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":256,
+                 "x":416,
+                 "y":1056
+                }, 
+                {
+                 "height":160,
+                 "id":230,
+                 "name":"bibliotheque4Popup",
                  "rotation":0,
                  "type":"",
                  "visible":true,
                  "width":256,
                  "x":288,
-                 "y":1056
+                 "y":1120
+                }, 
+                {
+                 "height":160,
+                 "id":229,
+                 "name":"bibliotheque5Popup",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":256,
+                 "x":352,
+                 "y":1120
+                }, 
+                {
+                 "height":160,
+                 "id":228,
+                 "name":"bibliotheque6Popup",
+                 "rotation":0,
+                 "type":"",
+                 "visible":true,
+                 "width":256,
+                 "x":416,
+                 "y":1120
                 }, 
                 {
                  "height":160,
@@ -1156,39 +1156,6 @@
                         }, 
                         {
                          "height":0,
-                         "id":249,
-                         "name":"bibliotheque1Embed",
-                         "point":true,
-                         "properties":[
-                                {
-                                 "name":"default",
-                                 "type":"bool",
-                                 "value":false
-                                }, 
-                                {
-                                 "name":"description",
-                                 "type":"string",
-                                 "value":"Un site int\u00e9gr\u00e9 s'ouvrira dans WorkAdventure, autrement il s'ouvrira dans un nouvel onglet."
-                                }, 
-                                {
-                                 "name":"label",
-                                 "type":"string",
-                                 "value":"Int\u00e9grer le site n\u00b01 ?"
-                                }, 
-                                {
-                                 "name":"persist",
-                                 "type":"bool",
-                                 "value":true
-                                }],
-                         "rotation":0,
-                         "type":"variable",
-                         "visible":true,
-                         "width":0,
-                         "x":96,
-                         "y":1184
-                        }, 
-                        {
-                         "height":0,
                          "id":248,
                          "name":"bibliotheque1URL",
                          "point":true,
@@ -1222,6 +1189,39 @@
                         }, 
                         {
                          "height":0,
+                         "id":249,
+                         "name":"bibliotheque1Embed",
+                         "point":true,
+                         "properties":[
+                                {
+                                 "name":"default",
+                                 "type":"bool",
+                                 "value":false
+                                }, 
+                                {
+                                 "name":"description",
+                                 "type":"string",
+                                 "value":"Un site int\u00e9gr\u00e9 s'ouvrira dans WorkAdventure, autrement il s'ouvrira dans un nouvel onglet."
+                                }, 
+                                {
+                                 "name":"label",
+                                 "type":"string",
+                                 "value":"Int\u00e9grer le site n\u00b01 ?"
+                                }, 
+                                {
+                                 "name":"persist",
+                                 "type":"bool",
+                                 "value":true
+                                }],
+                         "rotation":0,
+                         "type":"variable",
+                         "visible":true,
+                         "width":0,
+                         "x":96,
+                         "y":1184
+                        }, 
+                        {
+                         "height":0,
                          "id":238,
                          "name":"bibliotheque2Description",
                          "point":true,
@@ -1252,6 +1252,39 @@
                          "width":0,
                          "x":160,
                          "y":1120
+                        }, 
+                        {
+                         "height":0,
+                         "id":275,
+                         "name":"bibliotheque2URL",
+                         "point":true,
+                         "properties":[
+                                {
+                                 "name":"default",
+                                 "type":"string",
+                                 "value":""
+                                }, 
+                                {
+                                 "name":"description",
+                                 "type":"string",
+                                 "value":"Apr\u00e8s avoir configur\u00e9 une URL, un bouton bleu s'ajoutera \u00e0 la popup avec le lien saisie."
+                                }, 
+                                {
+                                 "name":"label",
+                                 "type":"string",
+                                 "value":"Configurer l'URL du site n\u00b02"
+                                }, 
+                                {
+                                 "name":"persist",
+                                 "type":"bool",
+                                 "value":true
+                                }],
+                         "rotation":0,
+                         "type":"variable",
+                         "visible":true,
+                         "width":0,
+                         "x":160,
+                         "y":1152
                         }, 
                         {
                          "height":0,
@@ -1681,39 +1714,6 @@
                          "width":0,
                          "x":224,
                          "y":1344
-                        }, 
-                        {
-                         "height":0,
-                         "id":275,
-                         "name":"bibliotheque2URL",
-                         "point":true,
-                         "properties":[
-                                {
-                                 "name":"default",
-                                 "type":"string",
-                                 "value":""
-                                }, 
-                                {
-                                 "name":"description",
-                                 "type":"string",
-                                 "value":"Apr\u00e8s avoir configur\u00e9 une URL, un bouton bleu s'ajoutera \u00e0 la popup avec le lien saisie."
-                                }, 
-                                {
-                                 "name":"label",
-                                 "type":"string",
-                                 "value":"Configurer l'URL du site n\u00b02"
-                                }, 
-                                {
-                                 "name":"persist",
-                                 "type":"bool",
-                                 "value":true
-                                }],
-                         "rotation":0,
-                         "type":"variable",
-                         "visible":true,
-                         "width":0,
-                         "x":160,
-                         "y":1152
                         }],
                  "opacity":1,
                  "properties":[
@@ -2342,7 +2342,35 @@
                  "draworder":"topdown",
                  "id":117,
                  "name":"googleForm",
-                 "objects":[],
+                 "objects":[
+                        {
+                         "height":0,
+                         "id":277,
+                         "name":"googleFormURL",
+                         "point":true,
+                         "properties":[
+                                {
+                                 "name":"default",
+                                 "type":"string",
+                                 "value":""
+                                }, 
+                                {
+                                 "name":"label",
+                                 "type":"string",
+                                 "value":"Configurer l'URL de la bo\u00eete \u00e0 id\u00e9e"
+                                }, 
+                                {
+                                 "name":"persist",
+                                 "type":"bool",
+                                 "value":true
+                                }],
+                         "rotation":0,
+                         "type":"variable",
+                         "visible":true,
+                         "width":0,
+                         "x":1088,
+                         "y":608
+                        }],
                  "opacity":1,
                  "properties":[
                         {
@@ -2359,7 +2387,7 @@
          "opacity":1,
          "properties":[
                 {
-                 "name":"tag",
+                 "name":"",
                  "type":"string",
                  "value":"admin"
                 }],
@@ -2405,7 +2433,7 @@
          "y":0
         }],
  "nextlayerid":125,
- "nextobjectid":276,
+ "nextobjectid":279,
  "orientation":"orthogonal",
  "properties":[
         {

@@ -1491,7 +1491,7 @@
                         {
                          "name":"label",
                          "type":"string",
-                         "value":"Mutualisme"
+                         "value":"Relation client"
                         }],
                  "type":"objectgroup",
                  "visible":true,
@@ -1706,7 +1706,7 @@
                         {
                          "name":"label",
                          "type":"string",
-                         "value":"Mutualisme"
+                         "value":"Entreprise"
                         }],
                  "type":"objectgroup",
                  "visible":true,
@@ -1921,7 +1921,7 @@
                         {
                          "name":"label",
                          "type":"string",
-                         "value":"Mutualisme"
+                         "value":"Distribution"
                         }],
                  "type":"objectgroup",
                  "visible":true,
@@ -2136,7 +2136,7 @@
                         {
                          "name":"label",
                          "type":"string",
-                         "value":"Mutualisme"
+                         "value":"Conformit\u00e9"
                         }],
                  "type":"objectgroup",
                  "visible":true,
