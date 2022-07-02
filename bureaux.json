@@ -464,7 +464,7 @@
          "opacity":1,
          "properties":[
                 {
-                 "name":"tag2",
+                 "name":"tag",
                  "type":"string",
                  "value":"admin"
                 }],
