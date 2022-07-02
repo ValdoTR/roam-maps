@@ -806,6 +806,57 @@ WA.onInit().then(() => {
     })
     WA.room.onLeaveLayer('zones/comex/agenda').subscribe(closePopup)
 
+    // ======================= BUREAUX =======================
+
+    WA.room.onEnterLayer('zones/bureaux/doc').subscribe(() => {
+        const id = "Doc"
+        const description = WA.state["bureaux"+id+"Description"] as string;
+        const url = WA.state["bureaux"+id+"URL"] as string;
+
+        let cta = [{label: 'Fermer', className: 'normal', callback: () => closePopup()}]
+
+        if (url) {
+            cta.push({label: 'Ouvrir', className: 'primary', callback: () => openWebsite(url, true)})
+        }
+
+        //@ts-ignore
+        currentPopup = WA.ui.openPopup("bureauxPopup", description, cta);
+    })
+    WA.room.onLeaveLayer('zones/bureaux/doc').subscribe(closePopup)
+
+    WA.room.onEnterLayer('zones/bureaux/video').subscribe(() => {
+        const id = "Video"
+        const description = WA.state["bureaux"+id+"Description"] as string;
+        const url = WA.state["bureaux"+id+"URL"] as string;
+
+        let cta = [{label: 'Fermer', className: 'normal', callback: () => closePopup()}]
+
+        if (url) {
+            cta.push({label: 'Ouvrir', className: 'primary', callback: () => openWebsite(url, true)})
+        }
+
+        //@ts-ignore
+        currentPopup = WA.ui.openPopup("bureauxPopup", description, cta);
+    })
+    WA.room.onLeaveLayer('zones/bureaux/video').subscribe(closePopup)
+
+    WA.room.onEnterLayer('zones/bureaux/agenda').subscribe(() => {
+        const id = "Agenda"
+        const description = WA.state["bureaux"+id+"Description"] as string;
+        const url = WA.state["bureaux"+id+"URL"] as string;
+
+        let cta = [{label: 'Fermer', className: 'normal', callback: () => closePopup()}]
+
+        if (url) {
+            cta.push({label: 'Ouvrir', className: 'primary', callback: () => openWebsite(url, true)})
+        }
+
+        //@ts-ignore
+        currentPopup = WA.ui.openPopup("bureauxPopup", description, cta);
+    })
+    WA.room.onLeaveLayer('zones/bureaux/agenda').subscribe(closePopup)
+
+
     // The line below bootstraps the Scripting API Extra library that adds a number of advanced properties/features to WorkAdventure
     bootstrapExtra().then(() => {
         console.log('Scripting API Extra ready');
