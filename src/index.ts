@@ -756,6 +756,56 @@ WA.onInit().then(() => {
     })
     WA.room.onLeaveLayer('zones/conformite/doc2').subscribe(closePopup)
 
+    // ======================== COMEX ========================
+
+    WA.room.onEnterLayer('zones/comex/doc').subscribe(() => {
+        const id = "Doc"
+        const description = WA.state["comex"+id+"Description"] as string;
+        const url = WA.state["comex"+id+"URL"] as string;
+
+        let cta = [{label: 'Fermer', className: 'normal', callback: () => closePopup()}]
+
+        if (url) {
+            cta.push({label: 'Ouvrir', className: 'primary', callback: () => openWebsite(url, true)})
+        }
+
+        //@ts-ignore
+        currentPopup = WA.ui.openPopup("comexPopup", description, cta);
+    })
+    WA.room.onLeaveLayer('zones/comex/doc').subscribe(closePopup)
+
+    WA.room.onEnterLayer('zones/comex/video').subscribe(() => {
+        const id = "Video"
+        const description = WA.state["comex"+id+"Description"] as string;
+        const url = WA.state["comex"+id+"URL"] as string;
+
+        let cta = [{label: 'Fermer', className: 'normal', callback: () => closePopup()}]
+
+        if (url) {
+            cta.push({label: 'Ouvrir', className: 'primary', callback: () => openWebsite(url, true)})
+        }
+
+        //@ts-ignore
+        currentPopup = WA.ui.openPopup("comexPopup", description, cta);
+    })
+    WA.room.onLeaveLayer('zones/comex/video').subscribe(closePopup)
+
+    WA.room.onEnterLayer('zones/comex/agenda').subscribe(() => {
+        const id = "Agenda"
+        const description = WA.state["comex"+id+"Description"] as string;
+        const url = WA.state["comex"+id+"URL"] as string;
+
+        let cta = [{label: 'Fermer', className: 'normal', callback: () => closePopup()}]
+
+        if (url) {
+            cta.push({label: 'Ouvrir', className: 'primary', callback: () => openWebsite(url, true)})
+        }
+
+        //@ts-ignore
+        currentPopup = WA.ui.openPopup("comexPopup", description, cta);
+    })
+    WA.room.onLeaveLayer('zones/comex/agenda').subscribe(closePopup)
+
     // The line below bootstraps the Scripting API Extra library that adds a number of advanced properties/features to WorkAdventure
     bootstrapExtra().then(() => {
         console.log('Scripting API Extra ready');
